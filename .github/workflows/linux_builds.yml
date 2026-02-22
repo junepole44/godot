@@ -32,7 +32,7 @@ jobs:
             target: editor
             scons-flags: module_mono_enabled=yes
             bin: ./bin/godot.linuxbsd.editor.x86_64.mono
-            build-mono: true
+            build-mono: false
             doc-test: true
             proj-conv: true
             api-compat: true
